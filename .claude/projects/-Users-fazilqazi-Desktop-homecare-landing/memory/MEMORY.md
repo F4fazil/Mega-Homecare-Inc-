@@ -1,0 +1,1 @@
+- [App Features](project_app_features.md) — Core features: admin scheduling, geo-fenced clock-in, shift reports, PDF export, family members
