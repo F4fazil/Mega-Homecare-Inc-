@@ -11,6 +11,7 @@ import {
   Heart,
 } from "lucide-react";
 import { config } from "./config";
+import appScreenshot from "/app-screenshot.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -124,10 +125,11 @@ function Hero() {
               {/* Screen */}
               <div className="relative overflow-hidden rounded-[2rem] aspect-[9/19.5]">
                 <img
-                  src="/app-screenshot.png"
+                  src={appScreenshot}
                   alt={`${config.appName} app screenshot`}
                   className="h-full w-full object-cover"
-                  loading="lazy"
+                  width={369}
+                  height={800}
                 />
               </div>
             </div>
