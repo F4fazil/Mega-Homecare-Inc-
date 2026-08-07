@@ -94,16 +94,6 @@ function Hero() {
             fingertips.
           </motion.p>
 
-          <motion.div variants={fadeUp} className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
-            <a
-              href={config.apkUrl}
-              download
-              className="inline-flex items-center gap-2 rounded-xl bg-brand-blue px-6 py-3 text-base font-semibold text-white shadow-lg shadow-brand-blue/25 transition-all duration-300 hover:bg-brand-blue-dark hover:shadow-xl hover:shadow-brand-blue/30 hover:-translate-y-0.5 active:translate-y-0"
-            >
-              <Download className="h-5 w-5" />
-              Download APK
-            </a>
-          </motion.div>
         </motion.div>
 
         {/* Phone mockup */}
